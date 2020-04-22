@@ -1,0 +1,63 @@
+header{
+    background: black;
+    color: white;
+    padding: 20px 0px 0px 0px;
+    margin: 0;
+    font-size: 24px;
+    text-indent: -35px;
+}
+
+#title {
+    font-size: 30px;
+    margin-right: 10px;
+}
+#navigation {
+    margin: 0px 3%;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+body {
+    font-size: 2vw;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 3%;
+}
+
+h1 {
+   font-size: 5vw; 
+}
+
+.showcase-right {
+    margin-top: 10%;
+}
+
+#testimonial {
+    background-color: black;
+    padding: 5% 0%;
+    margin: 5% 0%;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.showcase-left {
+    margin-top: 10%;
+}
+#navigation:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 768px) {
+    header{font-size: 99%}
+}
