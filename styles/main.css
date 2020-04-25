@@ -42,6 +42,13 @@ h1 {
     margin-top: 10%;
 }
 
+.showcase-left {
+    margin-top: 10%;
+}
+
+.table {
+    margin: 20px 0;
+}
 #testimonial {
     background-color: black;
     padding: 5% 0%;
@@ -51,11 +58,43 @@ h1 {
     color: white;
 }
 
-.showcase-left {
-    margin-top: 10%;
-}
 #navigation:hover{
     text-decoration: underline;
+}
+
+.pianoshowcase {
+    display: inline-block;
+    background-image: url("../images/Bechstein\ braun\ .jpg");
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 30px; 
+    text-align: right;
+    background-position: center;
+    color: white;
+    text-shadow: 1.5px  1.5px 1.5px black,
+    1.5px -1.5px 1.5px black,
+   -1.5px  1.5px 1.5px black,
+   -1.5px -1.5px 1.5px black;
+}
+#player {
+    margin: 0 0 20px 25%;
+}
+
+footer {
+    background-image: url(../images/keys.png);
+    background-size: 600px;
+    text-align: center;
+    color: black;
+    border-top: black 2px solid;
+}
+#credit {
+    display: inline-block;
+    background-color: white;
+    padding: 0 10px;
 }
 
 @media(max-width: 768px) {
